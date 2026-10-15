@@ -1,0 +1,28 @@
+Kármán szűrős megoldás, itt egy gauss eloszlást kapunk hogy hol lehet a tárgy
+átlag és szórással
+
+de a való viág zajos, nem így fog kinézni a valóságban, 
+ erre találták fel a condenzációs algoritmust, ami kettő vagy több csúcsú valószínűségi mezővel számol
+
+condenzációs algoritmusok
+    particle filter based probablity algorithm
+
+Monte carlo reprezentáció 
+    mintapontokkal közelítés
+
+Algorimtus:
+    Újramintavételezés
+        súlyok arányában újramintavételezünk
+
+    Predikció
+        másodrendű modell alapján eltolja a részecskéket
+        csak predikció
+    sulyozás
+        ha ez a predikció helyes, mennyire hasonlít a kamera képe rá(pl kontur alapján)
+
+condensation, összesűrűsödik a valószínűsített poziciók
+ CONditional DENSity PropagATION
+ 
+https://www.youtube.com/watch?v=qTD8yVJyhfs
+
+ Isard és Blake, 1998
